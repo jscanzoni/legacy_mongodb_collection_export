@@ -1,0 +1,593 @@
+[
+    {
+        "employeeId": 1,
+        "address": "507 - 20th Ave. E.\\nApt. 2A",
+        "birthDate": {
+            "$date": {
+                "$numberLong": "-664761600000"
+            }
+        },
+        "city": "Seattle",
+        "country": "USA",
+        "extension": "5467",
+        "firstName": "Nancy",
+        "hireDate": {
+            "$date": "1992-05-01T00:00:00.000Z"
+        },
+        "homePhone": "(206) 555-9857",
+        "lastName": "Davolio",
+        "notes": "Education includes a BA in psychology from Colorado State University in 1970.  She also completed The Art of the Cold Call.  Nancy is a member of Toastmasters International.",
+        "photo": {
+            "$binary": {
+                "base64": "",
+                "subType": "00"
+            }
+        },
+        "photoPath": "http://accweb/emmployees/davolio.bmp",
+        "postalCode": "98122",
+        "region": "WA",
+        "reportsTo": 2,
+        "title": "Sales Representative",
+        "titleOfCourtesy": "Ms.",
+        "employeeTerritories": [
+            {
+                "employeeId": 1,
+                "territoryId": "06897",
+                "regionId": 1,
+                "territoryDescription": "Wilton"
+            },
+            {
+                "employeeId": 1,
+                "territoryId": "19713",
+                "regionId": 1,
+                "territoryDescription": "Neward"
+            }
+        ]
+    },
+    {
+        "employeeId": 2,
+        "address": "908 W. Capital Way",
+        "birthDate": {
+            "$date": {
+                "$numberLong": "-563846400000"
+            }
+        },
+        "city": "Tacoma",
+        "country": "USA",
+        "extension": "3457",
+        "firstName": "Andrew",
+        "hireDate": {
+            "$date": "1992-08-14T00:00:00.000Z"
+        },
+        "homePhone": "(206) 555-9482",
+        "lastName": "Fuller",
+        "notes": "Andrew received his BTS commercial in 1974 and a Ph.D. in international marketing from the University of Dallas in 1981.  He is fluent in French and Italian and reads German.  He joined the company as a sales representative, was promoted to sales manager in January 1992 and to vice president of sales in March 1993.  Andrew is a member of the Sales Management Roundtable, the Seattle Chamber of Commerce, and the Pacific Rim Importers Association.",
+        "photo": {
+            "$binary": {
+                "base64": "",
+                "subType": "00"
+            }
+        },
+        "photoPath": "http://accweb/emmployees/fuller.bmp",
+        "postalCode": "98401",
+        "region": "WA",
+        "reportsTo": null,
+        "title": "Vice President, Sales",
+        "titleOfCourtesy": "Dr.",
+        "employeeTerritories": [
+            {
+                "employeeId": 2,
+                "territoryId": "01581",
+                "regionId": 1,
+                "territoryDescription": "Westboro"
+            },
+            {
+                "employeeId": 2,
+                "territoryId": "01730",
+                "regionId": 1,
+                "territoryDescription": "Bedford"
+            },
+            {
+                "employeeId": 2,
+                "territoryId": "01833",
+                "regionId": 1,
+                "territoryDescription": "Georgetow"
+            },
+            {
+                "employeeId": 2,
+                "territoryId": "02116",
+                "regionId": 1,
+                "territoryDescription": "Boston"
+            },
+            {
+                "employeeId": 2,
+                "territoryId": "02139",
+                "regionId": 1,
+                "territoryDescription": "Cambridge"
+            },
+            {
+                "employeeId": 2,
+                "territoryId": "02184",
+                "regionId": 1,
+                "territoryDescription": "Braintree"
+            },
+            {
+                "employeeId": 2,
+                "territoryId": "40222",
+                "regionId": 1,
+                "territoryDescription": "Louisville"
+            }
+        ]
+    },
+    {
+        "employeeId": 3,
+        "address": "722 Moss Bay Blvd.",
+        "birthDate": {
+            "$date": {
+                "$numberLong": "-200102400000"
+            }
+        },
+        "city": "Kirkland",
+        "country": "USA",
+        "extension": "3355",
+        "firstName": "Janet",
+        "hireDate": {
+            "$date": "1992-04-01T00:00:00.000Z"
+        },
+        "homePhone": "(206) 555-3412",
+        "lastName": "Leverling",
+        "notes": "Janet has a BS degree in chemistry from Boston College (1984).  She has also completed a certificate program in food retailing management.  Janet was hired as a sales associate in 1991 and promoted to sales representative in February 1992.",
+        "photo": {
+            "$binary": {
+                "base64": "",
+                "subType": "00"
+            }
+        },
+        "photoPath": "http://accweb/emmployees/leverling.bmp",
+        "postalCode": "98033",
+        "region": "WA",
+        "reportsTo": 2,
+        "title": "Sales Representative",
+        "titleOfCourtesy": "Ms.",
+        "employeeTerritories": [
+            {
+                "employeeId": 3,
+                "territoryId": "30346",
+                "regionId": 4,
+                "territoryDescription": "Atlanta"
+            },
+            {
+                "employeeId": 3,
+                "territoryId": "31406",
+                "regionId": 4,
+                "territoryDescription": "Savannah"
+            },
+            {
+                "employeeId": 3,
+                "territoryId": "32859",
+                "regionId": 4,
+                "territoryDescription": "Orlando"
+            },
+            {
+                "employeeId": 3,
+                "territoryId": "33607",
+                "regionId": 4,
+                "territoryDescription": "Tampa"
+            }
+        ]
+    },
+    {
+        "employeeId": 5,
+        "address": "14 Garrett Hill",
+        "birthDate": {
+            "$date": {
+                "$numberLong": "-468028800000"
+            }
+        },
+        "city": "London",
+        "country": "UK",
+        "extension": "3453",
+        "firstName": "Steven",
+        "hireDate": {
+            "$date": "1993-10-17T00:00:00.000Z"
+        },
+        "homePhone": "(71) 555-4848",
+        "lastName": "Buchanan",
+        "notes": "Steven Buchanan graduated from St. Andrews University, Scotland, with a BSC degree in 1976.  Upon joining the company as a sales representative in 1992, he spent 6 months in an orientation program at the Seattle office and then returned to his permanent post in London.  He was promoted to sales manager in March 1993.  Mr. Buchanan has completed the courses Successful Telemarketing and International Sales Management.  He is fluent in French.",
+        "photo": {
+            "$binary": {
+                "base64": "",
+                "subType": "00"
+            }
+        },
+        "photoPath": "http://accweb/emmployees/buchanan.bmp",
+        "postalCode": "SW1 8JR",
+        "region": null,
+        "reportsTo": 2,
+        "title": "Sales Manager",
+        "titleOfCourtesy": "Mr.",
+        "employeeTerritories": [
+            {
+                "employeeId": 5,
+                "territoryId": "02903",
+                "regionId": 1,
+                "territoryDescription": "Providence"
+            },
+            {
+                "employeeId": 5,
+                "territoryId": "07960",
+                "regionId": 1,
+                "territoryDescription": "Morristown"
+            },
+            {
+                "employeeId": 5,
+                "territoryId": "08837",
+                "regionId": 1,
+                "territoryDescription": "Edison"
+            },
+            {
+                "employeeId": 5,
+                "territoryId": "10019",
+                "regionId": 1,
+                "territoryDescription": "New York"
+            },
+            {
+                "employeeId": 5,
+                "territoryId": "10038",
+                "regionId": 1,
+                "territoryDescription": "New York"
+            },
+            {
+                "employeeId": 5,
+                "territoryId": "11747",
+                "regionId": 1,
+                "territoryDescription": "Mellvile"
+            },
+            {
+                "employeeId": 5,
+                "territoryId": "14450",
+                "regionId": 1,
+                "territoryDescription": "Fairport"
+            }
+        ]
+    },
+    {
+        "employeeId": 4,
+        "address": "4110 Old Redmond Rd.",
+        "birthDate": {
+            "$date": {
+                "$numberLong": "-1018828800000"
+            }
+        },
+        "city": "Redmond",
+        "country": "USA",
+        "extension": "5176",
+        "firstName": "Margaret",
+        "hireDate": {
+            "$date": "1993-05-03T00:00:00.000Z"
+        },
+        "homePhone": "(206) 555-8122",
+        "lastName": "Peacock",
+        "notes": "Margaret holds a BA in English literature from Concordia College (1958) and an MA from the American Institute of Culinary Arts (1966).  She was assigned to the London office temporarily from July through November 1992.",
+        "photo": {
+            "$binary": {
+                "base64": "",
+                "subType": "00"
+            }
+        },
+        "photoPath": "http://accweb/emmployees/peacock.bmp",
+        "postalCode": "98052",
+        "region": "WA",
+        "reportsTo": 2,
+        "title": "Sales Representative",
+        "titleOfCourtesy": "Mrs.",
+        "employeeTerritories": [
+            {
+                "employeeId": 4,
+                "territoryId": "20852",
+                "regionId": 1,
+                "territoryDescription": "Rockville"
+            },
+            {
+                "employeeId": 4,
+                "territoryId": "27403",
+                "regionId": 1,
+                "territoryDescription": "Greensboro"
+            },
+            {
+                "employeeId": 4,
+                "territoryId": "27511",
+                "regionId": 1,
+                "territoryDescription": "Cary"
+            }
+        ]
+    },
+    {
+        "employeeId": 6,
+        "address": "Coventry House\\nMiner Rd.",
+        "birthDate": {
+            "$date": {
+                "$numberLong": "-205200000000"
+            }
+        },
+        "city": "London",
+        "country": "UK",
+        "extension": "428",
+        "firstName": "Michael",
+        "hireDate": {
+            "$date": "1993-10-17T00:00:00.000Z"
+        },
+        "homePhone": "(71) 555-7773",
+        "lastName": "Suyama",
+        "notes": "Michael is a graduate of Sussex University (MA, economics, 1983) and the University of California at Los Angeles (MBA, marketing, 1986).  He has also taken the courses Multi-Cultural Selling and Time Management for the Sales Professional.  He is fluent in Japanese and can read and write French, Portuguese, and Spanish.",
+        "photo": {
+            "$binary": {
+                "base64": "",
+                "subType": "00"
+            }
+        },
+        "photoPath": "http://accweb/emmployees/davolio.bmp",
+        "postalCode": "EC2 7JR",
+        "region": null,
+        "reportsTo": 5,
+        "title": "Sales Representative",
+        "titleOfCourtesy": "Mr.",
+        "employeeTerritories": [
+            {
+                "employeeId": 6,
+                "territoryId": "85014",
+                "regionId": 2,
+                "territoryDescription": "Phoenix"
+            },
+            {
+                "employeeId": 6,
+                "territoryId": "85251",
+                "regionId": 2,
+                "territoryDescription": "Scottsdale"
+            },
+            {
+                "employeeId": 6,
+                "territoryId": "98004",
+                "regionId": 2,
+                "territoryDescription": "Bellevue"
+            },
+            {
+                "employeeId": 6,
+                "territoryId": "98052",
+                "regionId": 2,
+                "territoryDescription": "Redmond"
+            },
+            {
+                "employeeId": 6,
+                "territoryId": "98104",
+                "regionId": 2,
+                "territoryDescription": "Seattle"
+            }
+        ]
+    },
+    {
+        "employeeId": 7,
+        "address": "Edgeham Hollow\\nWinchester Way",
+        "birthDate": {
+            "$date": {
+                "$numberLong": "-302745600000"
+            }
+        },
+        "city": "London",
+        "country": "UK",
+        "extension": "465",
+        "firstName": "Robert",
+        "hireDate": {
+            "$date": "1994-01-02T00:00:00.000Z"
+        },
+        "homePhone": "(71) 555-5598",
+        "lastName": "King",
+        "notes": "Robert King served in the Peace Corps and traveled extensively before completing his degree in English at the University of Michigan in 1992, the year he joined the company.  After completing a course entitled Selling in Europe, he was transferred to the London office in March 1993.",
+        "photo": {
+            "$binary": {
+                "base64": "",
+                "subType": "00"
+            }
+        },
+        "photoPath": "http://accweb/emmployees/davolio.bmp",
+        "postalCode": "RG1 9SP",
+        "region": null,
+        "reportsTo": 5,
+        "title": "Sales Representative",
+        "titleOfCourtesy": "Mr.",
+        "employeeTerritories": [
+            {
+                "employeeId": 7,
+                "territoryId": "60179",
+                "regionId": 2,
+                "territoryDescription": "Hoffman Estates"
+            },
+            {
+                "employeeId": 7,
+                "territoryId": "60601",
+                "regionId": 2,
+                "territoryDescription": "Chicago"
+            },
+            {
+                "employeeId": 7,
+                "territoryId": "80202",
+                "regionId": 2,
+                "territoryDescription": "Denver"
+            },
+            {
+                "employeeId": 7,
+                "territoryId": "80909",
+                "regionId": 2,
+                "territoryDescription": "Colorado Springs"
+            },
+            {
+                "employeeId": 7,
+                "territoryId": "90405",
+                "regionId": 2,
+                "territoryDescription": "Santa Monica"
+            },
+            {
+                "employeeId": 7,
+                "territoryId": "94025",
+                "regionId": 2,
+                "territoryDescription": "Menlo Park"
+            },
+            {
+                "employeeId": 7,
+                "territoryId": "94105",
+                "regionId": 2,
+                "territoryDescription": "San Francisco"
+            },
+            {
+                "employeeId": 7,
+                "territoryId": "95008",
+                "regionId": 2,
+                "territoryDescription": "Campbell"
+            },
+            {
+                "employeeId": 7,
+                "territoryId": "95054",
+                "regionId": 2,
+                "territoryDescription": "Santa Clara"
+            },
+            {
+                "employeeId": 7,
+                "territoryId": "95060",
+                "regionId": 2,
+                "territoryDescription": "Santa Cruz"
+            }
+        ]
+    },
+    {
+        "employeeId": 9,
+        "address": "7 Houndstooth Rd.",
+        "birthDate": {
+            "$date": {
+                "$numberLong": "-123984000000"
+            }
+        },
+        "city": "London",
+        "country": "UK",
+        "extension": "452",
+        "firstName": "Anne",
+        "hireDate": {
+            "$date": "1994-11-15T00:00:00.000Z"
+        },
+        "homePhone": "(71) 555-4444",
+        "lastName": "Dodsworth",
+        "notes": "Anne has a BA degree in English from St. Lawrence College.  She is fluent in French and German.",
+        "photo": {
+            "$binary": {
+                "base64": "",
+                "subType": "00"
+            }
+        },
+        "photoPath": "http://accweb/emmployees/davolio.bmp",
+        "postalCode": "WG2 7LT",
+        "region": null,
+        "reportsTo": 5,
+        "title": "Sales Representative",
+        "titleOfCourtesy": "Ms.",
+        "employeeTerritories": [
+            {
+                "employeeId": 9,
+                "territoryId": "03049",
+                "regionId": 3,
+                "territoryDescription": "Hollis"
+            },
+            {
+                "employeeId": 9,
+                "territoryId": "03801",
+                "regionId": 3,
+                "territoryDescription": "Portsmouth"
+            },
+            {
+                "employeeId": 9,
+                "territoryId": "48075",
+                "regionId": 3,
+                "territoryDescription": "Southfield"
+            },
+            {
+                "employeeId": 9,
+                "territoryId": "48084",
+                "regionId": 3,
+                "territoryDescription": "Troy"
+            },
+            {
+                "employeeId": 9,
+                "territoryId": "48304",
+                "regionId": 3,
+                "territoryDescription": "Bloomfield Hills"
+            },
+            {
+                "employeeId": 9,
+                "territoryId": "55113",
+                "regionId": 3,
+                "territoryDescription": "Roseville"
+            },
+            {
+                "employeeId": 9,
+                "territoryId": "55439",
+                "regionId": 3,
+                "territoryDescription": "Minneapolis"
+            }
+        ]
+    },
+    {
+        "employeeId": 8,
+        "address": "4726 - 11th Ave. N.E.",
+        "birthDate": {
+            "$date": {
+                "$numberLong": "-378000000000"
+            }
+        },
+        "city": "Seattle",
+        "country": "USA",
+        "extension": "2344",
+        "firstName": "Laura",
+        "hireDate": {
+            "$date": "1994-03-05T00:00:00.000Z"
+        },
+        "homePhone": "(206) 555-1189",
+        "lastName": "Callahan",
+        "notes": "Laura received a BA in psychology from the University of Washington.  She has also completed a course in business French.  She reads and writes French.",
+        "photo": {
+            "$binary": {
+                "base64": "",
+                "subType": "00"
+            }
+        },
+        "photoPath": "http://accweb/emmployees/davolio.bmp",
+        "postalCode": "98105",
+        "region": "WA",
+        "reportsTo": 2,
+        "title": "Inside Sales Coordinator",
+        "titleOfCourtesy": "Ms.",
+        "employeeTerritories": [
+            {
+                "employeeId": 8,
+                "territoryId": "19428",
+                "regionId": 3,
+                "territoryDescription": "Philadelphia"
+            },
+            {
+                "employeeId": 8,
+                "territoryId": "44122",
+                "regionId": 3,
+                "territoryDescription": "Beachwood"
+            },
+            {
+                "employeeId": 8,
+                "territoryId": "45839",
+                "regionId": 3,
+                "territoryDescription": "Findlay"
+            },
+            {
+                "employeeId": 8,
+                "territoryId": "53404",
+                "regionId": 3,
+                "territoryDescription": "Racine"
+            }
+        ]
+    }
+]
